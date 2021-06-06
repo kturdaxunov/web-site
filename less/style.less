@@ -2,22 +2,47 @@
 
 
 /* Colors */
-@text-color: #000000;
-@btn-color: #ffffff;
-@background-color: #ffffff;
-@icons-color: #ff0000;
+@text-color: #3d357c;
 
 /* Basic settings */
-html {
-    font-size: 10px;
-}
-
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
-/* Scene */
 
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body._lock {
+    overflow: hidden;
+}
+
+
+/* Scene */
 @import "_scene";
+
+/* Header */
+@import "_header";
+
+/* Main */
+@import "_main";
+
+/* Services cards */
+@import "_services-cards";
+
+/* Spoilers */
+@import "_advantages";
+
+/* Portfolio */
+@import "_portfolio";
+
+/* Footer */
+@import "_footer";

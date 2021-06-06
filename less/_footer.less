@@ -1,0 +1,53 @@
+// main: style.less
+
+.footer {
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    &__block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__logo {
+        @media (max-width: 992px) {
+            display: none;
+        }
+
+        img {
+            height: 70px;
+        }
+    }
+
+    &__text {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        text-decoration: underline;
+
+        @media (max-width: 992px) {
+            display: none;
+        }
+    }
+
+    &__contacts {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        @media (max-width: 992px) {
+            margin-top: 20px;
+        }
+
+        a {
+            margin-right: 10px;
+
+        }
+
+        img {
+            width: 35px;
+            height: 35px;
+        }
+    }
+}

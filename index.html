@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template</title>
-    <link rel="icon" type="image/png" href="">
+    <link rel="icon" type="image/png" href="img/logo-2.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -19,6 +20,160 @@
         <div data-speed="10" class="layer layer-2"></div>
     </div>
 
+    <header class="header">
+        <div class="container">
+            <div class="row header__block">
+                <div class="col-md-4">
+                    <a href="#" class="header__logo"><img src="/img/logo-2.png" alt="Логотип" width="70"></a>
+                </div>
+                <div class="col-md-8 menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li><a data-goto=".page__section-1" href="#" class="menu__link">Наши услуги</a></li>
+                            <li><a data-goto=".page__section-2" href="#" class="menu__link">Преимущества</a></li>
+                            <li><a data-goto=".page__section-3" href="#" class="menu__link">Портфолио</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <h1 class="header__title">Интернет продвижение <br> - выгодно и быстро!</h1>
+
+    <section class="main page__section-1">
+        <div class="container">
+            <div class="row main__header">
+                <div class="col-lg-12">
+                    <h2>Команда фрилансеров готова оказать <br> весь спектор услуг при создания сайта</h2>
+                </div>
+            </div>
+            <div class="row main__block">
+                <div class="col-lg-4 main__card">
+                    <div class="main__item">
+                        <div class="front development"><span>1. Разработка</span></div>
+                        <div class="back"><span>Cайт любой сложности и с любом бюджетом. Налаженный процесс разработки
+                                позволит точно оценить ваши затраты еще на предварительной стадии, и получить в
+                                обозначенные сроки готовый сайт высокого уровня.</span></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 main__card">
+                    <div class="main__item">
+                        <div class="front support"><span>2. Поддержка</span></div>
+                        <div class="back"><span>Большинство клиентов после сдачи проекта не расстаются со мной, ведь
+                                сайт - это почти живой организм, ему нужно постоянно развиваться. Мы постоянно
+                                дорабатываем сайты наших клиентов, добавляем новые функции и оптимизируем старые.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 main__card">
+                    <div class="main__item">
+                        <div class="front design"><span>3. Дизайн</span></div>
+                        <div class="back"><span>Разработка в любых стилях и форматах! Прототипы, шаблоны дизайна сайтов
+                                и веб-приложений, работа с адаптивностью.</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages page__section-2">
+        <div class="container">
+            <div class="row advantages__title">
+                <div class="col-lg-12">
+                    <h2>Что вы получаете?</h2>
+                </div>
+            </div>
+            <div class="row advantages__block one__spoiler">
+                <div class="col-lg-6 advantages__wrapper">
+                    <div class="block__item">
+                        <div class="block__title active">Выгодную цену</div>
+                        <div class="block__text" style="display: block;">Фрилансеры обыкновенно выполняют работу
+                            дома,
+                            соответственно, им
+                            не
+                            нужно
+                            платить за аренду помещения, менеджера и т.п.</div>
+                    </div>
+                    <div class="block__item">
+                        <div class="block__title">Меньше волокиты</div>
+                        <div class="block__text">Нет бухгалтерии, менеджеров, документации. Благодаря этому многим
+                            клиентам
+                            психологически проще. Достаточно одного разговора, деньги можно перевести удобным способом,
+                            не
+                            надо платить комиссий и отчислений.</div>
+                    </div>
+                    <div class="block__item">
+                        <div class="block__title">Даже когда сроки «горят»</div>
+                        <div class="block__text">Некоторые фрилансеры работают в выходные и праздники, над вашим
+                            проектом
+                            будут трудиться даже тогда, когда все конкуренты празднуют и не подозревают, что скоро вы их
+                            обгоните.</div>
+                    </div>
+                    <div class="block__item">
+                        <div class="block__title">Никаких ограничений</div>
+                        <div class="block__text">Наши разработчики сделают то, что вам нужно. Главное для
+                            специалиста, четкое изложения: какой функционал, какие дополнения, скрипты.</div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="advantages__image">
+                        <img src="/img/teamwork.png" alt="Выгода">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio page__section-3">
+        <div class="container">
+            <div class="row portfolio__title">
+                <div class="col-lg-12">
+                    <h2>Портфолио</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="portfolio__wrapper">
+                    <div class="card">
+                        <div class="card-item portfolio__courses"><a href="#">Подробнее</a></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-item portfolio__kaiart"><a href="#">Подробнее</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer__block">
+                <div class="col-md-4 footer__logo">
+                    <a href="#"><img src="/img/logo.png" alt=""></a>
+                </div>
+                <div class="col-md-4 footer__text">
+                    <p>Простые решения для сложных проблем</p>
+                </div>
+                <div class="col-md-4 footer__contacts">
+                    <a href="https://www.instagram.com/k.turdaxunov/" target="_blank">
+                        <img src="/img/instagram.svg" alt="telegram">
+                    </a>
+
+                    <a href="https://www.facebook.com/profile.php?id=100005454135368" target="_blank">
+                        <img src="/img/facebook.svg" alt="telegram">
+                    </a>
+
+                    <a href="https://t.me/kturdaxunov" target="_blank">
+                        <img src="/img/telegram.svg" alt="telegram">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
     <script src="/js/script.js"></script>
     <script src="/js/bootstrap.min.js"></script>

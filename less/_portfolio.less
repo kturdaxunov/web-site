@@ -1,0 +1,69 @@
+// main: style.less
+
+.portfolio__title {
+    padding: 50px 0 50px 0;
+    background-color: #fff;
+    color: @text-color;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 1.5;
+}
+
+.portfolio__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    border-radius: 0 0 10px 10px;
+
+    @media (max-width:992px) {
+        flex-wrap: wrap;
+    }
+}
+
+.card {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+.card-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px;
+    width: 450px;
+    height: 250px;
+    transition: transform 0.2s;
+    transform-style: preserve-3d;
+
+    a {
+        font-size: 22px;
+        padding: 5px 10px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        transform: translateZ(50px) scale(1);
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+}
+
+.portfolio__courses {
+    background-image: url("/img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    @media (max-width:992px) {
+        margin-bottom: 50px;
+    }
+
+}
+
+.portfolio__kaiart {
+    background-image: url("/img/2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

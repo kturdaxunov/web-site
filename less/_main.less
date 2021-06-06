@@ -1,0 +1,59 @@
+// main: style.less
+
+.main {
+
+    &__header {
+        background-color: #fff;
+        border-radius: 10px 10px 0 0;
+        position: relative;
+
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 26px;
+            line-height: 1.5;
+            padding: 50px;
+            color: #221D46;
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 45px;
+                width: 100%;
+                left: 0;
+                height: 2px;
+                background-color: #221D46;
+            }
+
+        }
+    }
+
+    &__block {
+        background-color: #fff;
+    }
+
+    &__item {
+        margin: 20px;
+    }
+}
+
+.development {
+    background-image: url("/img/setting.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+.support {
+    background-image: url("/img/support.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+.design {
+    background-image: url("/img/computer.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
